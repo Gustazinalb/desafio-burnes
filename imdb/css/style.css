@@ -49,6 +49,33 @@ body {
     }
 }
 
+.banner-carousel {
+    border: 5px solid orange;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.banner-carousel .carousel-item {
+    height: 400px;
+}
+
+.banner-carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-carousel .carousel-control-prev,
+.banner-carousel .carousel-control-next {
+    width: 8%;
+}
+
+.banner-carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
 .card {
     background: #222;
     color: #FFF;
@@ -71,4 +98,36 @@ h2 {
     border-left: 5px solid orange;
     padding-left: 10px;
     margin-bottom: 20px;
+}
+
+#carouselBanner {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#carouselBanner .carousel-item {
+    height: 400px;
+}
+
+#carouselBanner .banner-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#carouselBanner .carousel-control-prev,
+#carouselBanner .carousel-control-next {
+    width: 8%;
+}
+
+#carouselBanner .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.card img {
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
 }

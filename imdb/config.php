@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$db   = "imdb";
+$db   = "imdb2";
 $user = "root";
 $pass = "";
 
